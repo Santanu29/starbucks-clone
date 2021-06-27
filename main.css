@@ -1,5 +1,5 @@
 .main-container {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -38,12 +38,11 @@
 
 .left-right-section .image {
     width: 50%;
-    height: 420px;
+    display: flex;
 }
 
-
 .image img { 
-    height: 100%;
+    width: 100%;
 }
 
 .text h1, .text h3 {
@@ -74,7 +73,14 @@
     background-color: rgba(30,57,50,.1);
 }
 
+.chill .text h1 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 5px
+}
 
-
-
+.chill .text h3 {
+    font-size: 20px;
+}
 
