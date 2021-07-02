@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: 400;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 a {
@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
 }
 
-.left-nav{
+.left-nav {
     display: flex;
     align-items: center;
     text-transform: uppercase;
@@ -39,6 +39,7 @@ header {
 .logo {
     width: 51px;
     height: 51px;
+    margin-left: -4rem;
     /* margin-right: 30px; */
 }
 
@@ -46,7 +47,7 @@ header {
     height: 100%;
 }
 
-.left-nav nav ul{
+.left-nav nav ul {
     list-style-type: none;
     display: flex;
 }
@@ -66,7 +67,6 @@ header {
 .right-nav {
     display: flex;
     align-items: center;
-
 }
 
 .find-store {
@@ -86,7 +86,8 @@ header {
     color: #008248;
 }
 
-.sign-in, .join-now {
+.sign-in,
+.join-now {
     /* background-color: brown; */
     padding: 7px 16px;
     border: 1px solid;
@@ -102,7 +103,7 @@ header {
 }
 
 .sign-in:hover {
-    background-color: rgba(0,0,0,0.06);
+    background-color: rgba(0, 0, 0, 0.06);
 }
 
 .join-now {
@@ -114,5 +115,3 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     border-color: rgba(0, 0, 0, 0.7);
 }
-
-
