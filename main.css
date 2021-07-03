@@ -74,6 +74,23 @@
     background-color: rgba(30, 57, 50, .1);
 }
 
+.happy .text {
+    background-color: #f2f0eb;
+}
+
+.happy .text h1 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 5px
+}
+
+.happy .text h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 0 75px;
+}
+
 .chill .text {
     background-color: #f2f0eb;
 }
