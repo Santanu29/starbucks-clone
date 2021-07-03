@@ -21,7 +21,8 @@
 
 .left-right-section {
     display: flex;
-    margin-bottom: 32px;;
+    margin-bottom: 32px;
+    ;
 }
 
 .left-right-section .text {
@@ -41,11 +42,12 @@
     display: flex;
 }
 
-.image img { 
+.image img {
     width: 100%;
 }
 
-.text h1, .text h3 {
+.text h1,
+.text h3 {
     margin: 0;
 }
 
@@ -70,7 +72,7 @@
 }
 
 .text .cta:hover {
-    background-color: rgba(30,57,50,.1);
+    background-color: rgba(30, 57, 50, .1);
 }
 
 .chill .text {
@@ -104,6 +106,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .top-bottom-section:first-child {
     margin-right: 16px;
 }
@@ -143,8 +146,3 @@
     font-size: 19px;
     line-height: 1.75;
 }
-
-
-
-
-
