@@ -162,3 +162,11 @@
     font-size: 19px;
     line-height: 1.75;
 }
+
+.change .text {
+    color: #000000;
+    background-color: #d4e9e2;
+    padding: 0 75px;
+    font-weight: 400;
+    line-height: 1.75;
+}
